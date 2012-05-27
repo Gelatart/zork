@@ -22,11 +22,11 @@ public class Level {
 
     public static void main(String[] Args) {
         String Sit1 = "You are trapped in a room. You see a Plant, A Light, a Fish Bowl and a Hammer. What do you do?";
-        String Diolog1 = "You Have Grabbed the Hammer.";
-        String Diolog2 = "You Have Smashed the Light.";
-        String Diolog3 = "You have grabbed the glass from the smashed light";
-        String Diolog4 = "You have cut the grass";
-        String Diolog5 = "You have fed the grass to your child. How happy he must be.";
+        String Dialogue1 = "You Have Grabbed the Hammer.";
+        String Dialogue2 = "You Have Smashed the Light.";
+        String Dialogue3 = "You have grabbed the glass from the smashed light";
+        String Dialogue4 = "You have cut the grass";
+        String Dialogue5 = "You have fed the grass to your child. How happy he must be.";
         String Fail = "You fail at life, give me proper input";
         String CheckBowl = "There is a fish in there. It Seems to be hungry.";
         String CheckPlant = "It's a plant with many leaves. Have fun looking at it.";
