@@ -14,9 +14,9 @@ import java.util.Scanner;
 public class Level {
     public int Plant;
     public int Leaf;
-    public int Bulb;
-    public int Glass;
-    public int Bowl;
+    public int Lightbulb;
+    public int GlassShard;
+    public int FishBowl;
     public int Hammer;
     public int Action;
 
@@ -28,9 +28,9 @@ public class Level {
         String Dialogue4 = "You have cut the grass";
         String Dialogue5 = "You have fed the grass to your child. How happy he must be.";
         String Fail = "You fail at life, give me proper input";
-        String CheckBowl = "There is a fish in there. It Seems to be hungry.";
+        String CheckFishBowl = "There is a fish in there. It Seems to be hungry.";
         String CheckPlant = "It's a plant with many leaves. Have fun looking at it.";
-        String CheckLight = "Look at that beautiful Glow. Luckily there are 2 light bulbs. Maybe we could use one later....";
+        String CheckLightbulb = "Look at that beautiful Glow. Luckily there are 2 light bulbs. Maybe we could use one later....";
         String CheckHammer = "Hmm It's a Hammer..... Look at its majesty.. Its best use is to crush things.";
         String CheckRoom = "You are trapped in a room. You see a Plant, A Light, a Fish Bowl and a Hammer. Wat do?";
         System.out.println(Sit1);
@@ -39,7 +39,7 @@ public class Level {
         Action = input.next();
 
         while (Action != "Kill Yourself") {
-            Action = input.next(); // I need it to always scan for input and verify it with the next if Statment. How would i go about doing that?
+            Action = input.next(); // I need it to always scan for input and verify it with the next if Statement. How would I go about doing that?
 
             if (Action == "u") {
                 System.out.println(CheckRoom);
